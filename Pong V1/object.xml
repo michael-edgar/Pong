@@ -23,8 +23,8 @@
     <real id="time">0</real>
     <integer id="randomSeed">-1</integer>
     <size id="displaySize">
-      <real id="width">568</real>
-      <real id="height">320</real>
+      <real id="width">1080</real>
+      <real id="height">1920</real>
     </size>
     <text id="actorTags" />
     <boolean id="platformConnected">false</boolean>
@@ -180,5 +180,7 @@
     <table id="id882041" name="PurchaseTable">PurchaseTable</table>
     <integer id="id566612" name="Score 1">0</integer>
     <integer id="id123355" name="Score 2">0</integer>
+    <integer id="id332558" name="Player1Speed">0</integer>
+    <integer id="id598914" name="Player1Direction">0</integer>
   </attributes>
 </game>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor id="id968352" PGFVersion="0.25" GSCVersion="1.25.5977">
   <attributes>
-    <text id="name">Player 1</text>
+    <text id="name">Player1</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
@@ -22,7 +22,41 @@
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
-  <behaviors />
+  <behaviors>
+    <behavior id="id861026" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Move Up</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id937864" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="key">
+            <attributes>
+              <text id="mode">down</text>
+              <text id="keyString">Up1</text>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id164809" class="MoveBehavior" enabled="true">
+          <attributes>
+            <text id="name">Move</text>
+            <text id="bundleName">Move.behavior</text>
+            <angle id="direction">90</angle>
+            <index id="space">0</index>
+            <index id="moveType">0</index>
+            <real id="speed">150</real>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+  </behaviors>
   <aspects>
     <graphics>
       <attributes>

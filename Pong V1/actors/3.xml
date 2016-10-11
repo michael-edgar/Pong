@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor id="id819976" PGFVersion="0.25" GSCVersion="1.25.5977">
   <attributes>
-    <text id="name">Player 2</text>
+    <text id="name">Player2</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
