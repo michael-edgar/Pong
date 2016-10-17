@@ -13,9 +13,9 @@
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
-      <real id="red">1</real>
-      <real id="green">1</real>
-      <real id="blue">1</real>
+      <real id="red">0</real>
+      <real id="green">0</real>
+      <real id="blue">0.627450980392157</real>
       <real id="alpha">1</real>
     </color>
     <image id="image" />
@@ -38,7 +38,7 @@
           <predicate type="key">
             <attributes>
               <text id="mode">down</text>
-              <text id="keyString">Up1</text>
+              <text id="keyString">w</text>
             </attributes>
           </predicate>
         </condition>
@@ -49,6 +49,39 @@
             <text id="name">Move</text>
             <text id="bundleName">Move.behavior</text>
             <angle id="direction">90</angle>
+            <index id="space">0</index>
+            <index id="moveType">0</index>
+            <real id="speed">150</real>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id786126" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Move Down</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id709904" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="key">
+            <attributes>
+              <text id="mode">down</text>
+              <text id="keyString">s</text>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id208045" class="MoveBehavior" enabled="true">
+          <attributes>
+            <text id="name">Move</text>
+            <text id="bundleName">Move.behavior</text>
+            <angle id="direction">270</angle>
             <index id="space">0</index>
             <index id="moveType">0</index>
             <real id="speed">150</real>

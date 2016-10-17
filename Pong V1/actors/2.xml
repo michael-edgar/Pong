@@ -14,8 +14,8 @@
     <angle id="rotation">0</angle>
     <color id="color">
       <real id="red">1</real>
-      <real id="green">1</real>
-      <real id="blue">1</real>
+      <real id="green">0</real>
+      <real id="blue">0</real>
       <real id="alpha">1</real>
     </color>
     <image id="image" />

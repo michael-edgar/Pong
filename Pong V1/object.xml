@@ -13,18 +13,28 @@
     <actor id="id704292" />
     <actor id="id944664" />
     <actor id="id812904" />
+    <actor id="id756522" />
+    <actor id="id507332" />
+    <actor id="id967388" />
+    <actor id="id561390" />
+    <actor id="id666702" />
+    <actor id="id732666" />
+    <actor id="id713444" />
   </prototypes>
   <plugins />
   <scenes>
+    <scene id="id300886" />
     <scene id="id961846" />
+    <scene id="id561392" />
+    <scene id="id991035" />
   </scenes>
   <attributes>
     <text id="name">default name</text>
     <real id="time">0</real>
     <integer id="randomSeed">-1</integer>
     <size id="displaySize">
-      <real id="width">1080</real>
-      <real id="height">1920</real>
+      <real id="width">1920</real>
+      <real id="height">1080</real>
     </size>
     <text id="actorTags" />
     <boolean id="platformConnected">false</boolean>
@@ -182,5 +192,7 @@
     <integer id="id123355" name="Score 2">0</integer>
     <integer id="id332558" name="Player1Speed">0</integer>
     <integer id="id598914" name="Player1Direction">0</integer>
+    <integer id="id227338" name="Score1">0</integer>
+    <integer id="id127024" name="Score2">0</integer>
   </attributes>
 </game>

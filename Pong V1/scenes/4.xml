@@ -1,31 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.25" GSCVersion="1.25.5977" id="id300886">
+<scene PGFVersion="0.25" GSCVersion="1.25.5977" id="id991035">
   <layers>
-    <layer id="id484497">
+    <layer id="id702104">
       <actors>
-        <actor id="id866202" prototype="id967388">
-          <attributes>
-            <point id="position">
-              <real id="x">281</real>
-              <real id="y">233</real>
-            </point>
-            <size id="size">
-              <real id="width">374</real>
-              <real id="height">120</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id529510" prototype="id561390">
+        <actor id="id371293" prototype="id732666">
           <attributes>
             <point id="position">
               <real id="x">284</real>
-              <real id="y">117</real>
+              <real id="y">158</real>
             </point>
             <size id="size">
-              <real id="width">310</real>
-              <real id="height">74</real>
+              <real id="width">338</real>
+              <real id="height">120</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
@@ -39,7 +25,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Title</text>
+    <text id="name">Player 1 Loses</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">568</real>
