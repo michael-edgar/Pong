@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id507332" PGFVersion="0.25" GSCVersion="1.25.5977">
+<actor id="id487845" PGFVersion="0.25" GSCVersion="1.25.5977">
   <attributes>
-    <text id="name">Goal2</text>
+    <text id="name">Goal1</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
@@ -16,21 +16,21 @@
       <real id="red">1</real>
       <real id="green">1</real>
       <real id="blue">1</real>
-      <real id="alpha">0</real>
+      <real id="alpha">1</real>
     </color>
     <image id="image" />
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id387759" class="RuleBehavior" enabled="true">
+    <behavior id="id536128" class="RuleBehavior" enabled="true">
       <attributes>
-        <text id="name">Rule</text>
+        <text id="name">Score 1 (losing)</text>
         <text id="bundleName">Rule.behavior</text>
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id419292" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+        <condition id="id332615" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
           <attributes>
             <text id="name">default name</text>
             <index id="conditionType">0</index>
@@ -45,11 +45,11 @@
         </condition>
       </conditions>
       <behaviors>
-        <behavior id="id776876" class="ChangeAttributeAction" enabled="true">
+        <behavior id="id894890" class="ChangeAttributeAction" enabled="true">
           <attributes>
             <text id="name">Change Attribute</text>
             <text id="bundleName">ChangeAttribute.behavior</text>
-            <text id="targetAttribute">game.attributes.id127024</text>
+            <text id="targetAttribute">game.attributes.id227338</text>
             <text id="RHS">+1</text>
           </attributes>
         </behavior>

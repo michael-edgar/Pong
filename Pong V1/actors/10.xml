@@ -25,7 +25,7 @@
   <behaviors>
     <behavior id="id720413" class="DisplayTextBehavior" enabled="true">
       <attributes>
-        <text id="name">Display Text</text>
+        <text id="name">Win Text</text>
         <text id="bundleName">DisplayText.behavior</text>
         <text id="text">Player 1 Wins!!!!</text>
         <text id="font">Cambay</text>

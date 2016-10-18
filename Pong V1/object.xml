@@ -6,23 +6,26 @@
   <resolution>12</resolution>
   <longDescription>A simple game.</longDescription>
   <prototypes>
-    <actor id="id968352" />
-    <actor id="id537270" />
-    <actor id="id819976" />
-    <actor id="id244377" />
-    <actor id="id704292" />
-    <actor id="id756522" />
-    <actor id="id507332" />
     <actor id="id967388" />
     <actor id="id561390" />
+    <actor id="id383163" />
+    <actor id="id968352" />
+    <actor id="id819976" />
+    <actor id="id244377" />
+    <actor id="id487845" />
+    <actor id="id489558" />
+    <actor id="id489455" />
     <actor id="id666702" />
     <actor id="id732666" />
     <actor id="id713444" />
+    <actor id="id106736" />
+    <actor id="id739557" />
+    <actor id="id521232" />
   </prototypes>
   <plugins />
   <scenes>
     <scene id="id300886" />
-    <scene id="id961846" />
+    <scene id="id855504" />
     <scene id="id561392" />
     <scene id="id991035" />
   </scenes>

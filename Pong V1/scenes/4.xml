@@ -6,12 +6,26 @@
         <actor id="id371293" prototype="id732666">
           <attributes>
             <point id="position">
-              <real id="x">284</real>
-              <real id="y">158</real>
+              <real id="x">283</real>
+              <real id="y">224</real>
             </point>
             <size id="size">
               <real id="width">338</real>
               <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id303329" prototype="id521232">
+          <attributes>
+            <point id="position">
+              <real id="x">281</real>
+              <real id="y">108</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
+              <real id="height">59</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
@@ -25,7 +39,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Player 1 Loses</text>
+    <text id="name">Player 2 Wins</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">568</real>
