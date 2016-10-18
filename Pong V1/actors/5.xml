@@ -8,8 +8,8 @@
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">120</real>
-      <real id="height">120</real>
+      <real id="width">30</real>
+      <real id="height">60</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">

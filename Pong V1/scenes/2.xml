@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.25" GSCVersion="1.25.5977" id="id855504">
+<scene PGFVersion="0.25" GSCVersion="1.25.5977" id="id256659">
   <layers>
-    <layer id="id261881">
+    <layer id="id991368">
       <actors>
-        <actor id="id507689" prototype="id968352">
+        <actor id="id959012" prototype="id968352">
           <attributes>
             <point id="position">
               <real id="x">55</real>
@@ -17,7 +17,7 @@
           </attributes>
           <aspects />
         </actor>
-        <actor id="id534184" prototype="id244377">
+        <actor id="id379080" prototype="id244377">
           <attributes>
             <point id="position">
               <real id="x">169</real>
@@ -31,7 +31,7 @@
           </attributes>
           <aspects />
         </actor>
-        <actor id="id322374" prototype="id713444">
+        <actor id="id962319" prototype="id713444">
           <attributes>
             <point id="position">
               <real id="x">275</real>
@@ -45,21 +45,7 @@
           </attributes>
           <aspects />
         </actor>
-        <actor id="id484257" prototype="id819976">
-          <attributes>
-            <point id="position">
-              <real id="x">510</real>
-              <real id="y">165</real>
-            </point>
-            <size id="size">
-              <real id="width">30</real>
-              <real id="height">60</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id436765" prototype="id487845">
+        <actor id="id156234" prototype="id487845">
           <attributes>
             <point id="position">
               <real id="x">18</real>
@@ -73,7 +59,7 @@
           </attributes>
           <aspects />
         </actor>
-        <actor id="id912863" prototype="id489558">
+        <actor id="id327329" prototype="id489558">
           <attributes>
             <point id="position">
               <real id="x">550</real>
@@ -87,7 +73,7 @@
           </attributes>
           <aspects />
         </actor>
-        <actor id="id537351" prototype="id489455">
+        <actor id="id672553" prototype="id489455">
           <attributes>
             <point id="position">
               <real id="x">284</real>
@@ -101,7 +87,7 @@
           </attributes>
           <aspects />
         </actor>
-        <actor id="id676131" prototype="id489455">
+        <actor id="id450330" prototype="id489455">
           <attributes>
             <point id="position">
               <real id="x">283</real>
@@ -115,7 +101,7 @@
           </attributes>
           <aspects />
         </actor>
-        <actor id="id466150" prototype="id106736">
+        <actor id="id283928" prototype="id106736">
           <attributes>
             <point id="position">
               <real id="x">138</real>
@@ -129,7 +115,7 @@
           </attributes>
           <aspects />
         </actor>
-        <actor id="id552089" prototype="id739557">
+        <actor id="id655095" prototype="id739557">
           <attributes>
             <point id="position">
               <real id="x">378</real>
@@ -143,6 +129,20 @@
           </attributes>
           <aspects />
         </actor>
+        <actor id="id728137" prototype="id715425">
+          <attributes>
+            <point id="position">
+              <real id="x">510</real>
+              <real id="y">165</real>
+            </point>
+            <size id="size">
+              <real id="width">30</real>
+              <real id="height">60</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
       </actors>
       <attributes>
         <text id="name">Background</text>
@@ -151,7 +151,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Versus Player 2</text>
+    <text id="name">Versus Bot</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">568</real>

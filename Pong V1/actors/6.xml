@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id244377" PGFVersion="0.25" GSCVersion="1.25.5977">
+<actor id="id715425" PGFVersion="0.25" GSCVersion="1.25.5977">
   <attributes>
-    <text id="name">Ball</text>
+    <text id="name">Bot</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">120</real>
-      <real id="height">120</real>
+      <real id="width">30</real>
+      <real id="height">60</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
       <real id="red">1</real>
-      <real id="green">1</real>
-      <real id="blue">1</real>
+      <real id="green">0</real>
+      <real id="blue">0</real>
       <real id="alpha">1</real>
     </color>
     <image id="image" />
@@ -23,106 +23,13 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id400365" class="CompoundBehavior" enabled="true">
+    <behavior id="id799574" class="ConstrainAttributeBehavior" enabled="true">
       <attributes>
-        <text id="name">Collision</text>
-        <text id="bundleName">Group.behavior</text>
-        <boolean id="runOnce">false</boolean>
-        <boolean id="runSequentially">false</boolean>
+        <text id="name">X Movement Constrain</text>
+        <text id="bundleName">ConstrainAttribute.behavior</text>
+        <text id="targetAttribute">self.attributes.position.x</text>
+        <text id="RHS">510</text>
       </attributes>
-      <behaviors>
-        <behavior id="id854162" class="RuleBehavior" enabled="true">
-          <attributes>
-            <text id="name">Player 1 collision</text>
-            <text id="bundleName">Rule.behavior</text>
-            <real id="compoundConditionKind">0</real>
-          </attributes>
-          <conditions>
-            <condition id="id812012" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
-              <attributes>
-                <text id="name">default name</text>
-                <index id="conditionType">0</index>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id968352</text>
-                  <text id="actorTag" />
-                  <real id="mode">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-          </conditions>
-          <behaviors>
-            <behavior id="id868359" class="ChangeVelocityAction" enabled="true">
-              <attributes>
-                <text id="name">Change Velocity</text>
-                <text id="bundleName">ChangeVelocity.behavior</text>
-                <angle id="direction">
-                  <expression>
-                    <string xml:space="preserve">random(-</string>
-                    <string xml:space="preserve">7</string>
-                    <string xml:space="preserve">0, </string>
-                    <string xml:space="preserve">7</string>
-                    <string xml:space="preserve">0)</string>
-                  </expression>
-                </angle>
-                <index id="space">0</index>
-                <real id="speed">400</real>
-              </attributes>
-            </behavior>
-          </behaviors>
-        </behavior>
-        <behavior id="id780252" class="RuleBehavior" enabled="true">
-          <attributes>
-            <text id="name">Player 2 collision</text>
-            <text id="bundleName">Rule.behavior</text>
-            <real id="compoundConditionKind">0</real>
-          </attributes>
-          <conditions>
-            <condition id="id117890" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
-              <attributes>
-                <text id="name">default name</text>
-                <index id="conditionType">0</index>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id819976</text>
-                  <text id="actorTag" />
-                  <real id="mode">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-          </conditions>
-          <behaviors>
-            <behavior id="id876237" class="ChangeVelocityAction" enabled="true">
-              <attributes>
-                <text id="name">Change Velocity</text>
-                <text id="bundleName">ChangeVelocity.behavior</text>
-                <angle id="direction">
-                  <expression>
-                    <string xml:space="preserve">random(1</string>
-                    <string xml:space="preserve">1</string>
-                    <string xml:space="preserve">0, 2</string>
-                    <string xml:space="preserve">5</string>
-                    <string xml:space="preserve">0)</string>
-                  </expression>
-                </angle>
-                <index id="space">0</index>
-                <real id="speed">400</real>
-              </attributes>
-            </behavior>
-          </behaviors>
-        </behavior>
-        <behavior id="id861907" class="CollideBehavior" enabled="true">
-          <attributes>
-            <text id="name">Wall collision</text>
-            <text id="bundleName">Collide.behavior</text>
-            <text id="prototypeKey">id489455</text>
-            <text id="actorTag">Ground</text>
-            <index id="mode">0</index>
-          </attributes>
-        </behavior>
-      </behaviors>
     </behavior>
   </behaviors>
   <aspects>
@@ -141,7 +48,7 @@
     <motion>
       <attributes>
         <point id="linearVelocity">
-          <real id="x">-600</real>
+          <real id="x">0</real>
           <real id="y">0</real>
         </point>
         <point id="centerOfMass">

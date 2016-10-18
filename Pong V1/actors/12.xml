@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id713444" PGFVersion="0.25" GSCVersion="1.25.5977">
+<actor id="id489455" PGFVersion="0.25" GSCVersion="1.25.5977">
   <attributes>
-    <text id="name">Win/Lose</text>
+    <text id="name">Wall</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
@@ -16,80 +16,13 @@
       <real id="red">1</real>
       <real id="green">1</real>
       <real id="blue">1</real>
-      <real id="alpha">0</real>
+      <real id="alpha">1</real>
     </color>
     <image id="image" />
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
-  <behaviors>
-    <behavior id="id302363" class="RuleBehavior" enabled="true">
-      <attributes>
-        <text id="name">Lose Screen</text>
-        <text id="bundleName">Rule.behavior</text>
-        <real id="compoundConditionKind">0</real>
-      </attributes>
-      <conditions>
-        <condition id="id788175" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
-          <attributes>
-            <index id="conditionType">1</index>
-            <text id="subjectAttribute">game.attributes.id227338</text>
-            <text id="name">default name</text>
-          </attributes>
-          <predicate type="number">
-            <attributes>
-              <text id="operator">=</text>
-              <real id="RHS">10</real>
-            </attributes>
-          </predicate>
-        </condition>
-      </conditions>
-      <behaviors>
-        <behavior id="id737381" class="ChangeSceneAction" enabled="true">
-          <attributes>
-            <text id="name">Change Scene</text>
-            <text id="bundleName">ChangeScene.behavior</text>
-            <text id="sceneKey">id991035</text>
-            <index id="enableAdvertisement">0</index>
-            <index id="index">1</index>
-          </attributes>
-        </behavior>
-      </behaviors>
-    </behavior>
-    <behavior id="id963472" class="RuleBehavior" enabled="true">
-      <attributes>
-        <text id="name">Win Screen</text>
-        <text id="bundleName">Rule.behavior</text>
-        <real id="compoundConditionKind">0</real>
-      </attributes>
-      <conditions>
-        <condition id="id139543" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
-          <attributes>
-            <index id="conditionType">1</index>
-            <text id="subjectAttribute">game.attributes.id127024</text>
-            <text id="name">default name</text>
-          </attributes>
-          <predicate type="number">
-            <attributes>
-              <text id="operator">=</text>
-              <real id="RHS">10</real>
-            </attributes>
-          </predicate>
-        </condition>
-      </conditions>
-      <behaviors>
-        <behavior id="id245444" class="ChangeSceneAction" enabled="true">
-          <attributes>
-            <text id="name">Change Scene</text>
-            <text id="bundleName">ChangeScene.behavior</text>
-            <text id="sceneKey">id561392</text>
-            <index id="enableAdvertisement">0</index>
-            <index id="index">1</index>
-          </attributes>
-        </behavior>
-      </behaviors>
-    </behavior>
-  </behaviors>
+  <behaviors />
   <aspects>
     <graphics>
       <attributes>
@@ -125,7 +58,7 @@
         <real id="friction">3</real>
         <real id="restitution">1</real>
         <boolean id="fixedRotation">false</boolean>
-        <boolean id="movable">true</boolean>
+        <boolean id="movable">false</boolean>
         <enumeration id="collisionShape">0</enumeration>
         <real id="drag">0</real>
         <real id="angularDrag">0</real>
