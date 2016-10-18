@@ -45,34 +45,6 @@
           </attributes>
           <aspects />
         </actor>
-        <actor id="id170334" prototype="id944664">
-          <attributes>
-            <point id="position">
-              <real id="x">110</real>
-              <real id="y">95</real>
-            </point>
-            <size id="size">
-              <real id="width">30</real>
-              <real id="height">30</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id953181" prototype="id812904">
-          <attributes>
-            <point id="position">
-              <real id="x">110</real>
-              <real id="y">50</real>
-            </point>
-            <size id="size">
-              <real id="width">30</real>
-              <real id="height">30</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects />
-        </actor>
         <actor id="id132804" prototype="id756522">
           <attributes>
             <point id="position">

@@ -11,8 +11,6 @@
     <actor id="id819976" />
     <actor id="id244377" />
     <actor id="id704292" />
-    <actor id="id944664" />
-    <actor id="id812904" />
     <actor id="id756522" />
     <actor id="id507332" />
     <actor id="id967388" />
@@ -188,10 +186,6 @@
       <text id="name" />
     </adreward>
     <table id="id882041" name="PurchaseTable">PurchaseTable</table>
-    <integer id="id566612" name="Score 1">0</integer>
-    <integer id="id123355" name="Score 2">0</integer>
-    <integer id="id332558" name="Player1Speed">0</integer>
-    <integer id="id598914" name="Player1Direction">0</integer>
     <integer id="id227338" name="Score1">0</integer>
     <integer id="id127024" name="Score2">0</integer>
   </attributes>

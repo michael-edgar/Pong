@@ -45,14 +45,13 @@
         </condition>
       </conditions>
       <behaviors>
-        <behavior id="id395996" class="MoveBehavior" enabled="true">
+        <behavior id="id868359" class="ChangeVelocityAction" enabled="true">
           <attributes>
-            <text id="name">Move</text>
-            <text id="bundleName">Move.behavior</text>
+            <text id="name">Change Velocity</text>
+            <text id="bundleName">ChangeVelocity.behavior</text>
             <angle id="direction">0</angle>
             <index id="space">0</index>
-            <index id="moveType">0</index>
-            <real id="speed">150</real>
+            <real id="speed">300</real>
           </attributes>
         </behavior>
       </behaviors>
@@ -79,14 +78,13 @@
         </condition>
       </conditions>
       <behaviors>
-        <behavior id="id865736" class="MoveBehavior" enabled="true">
+        <behavior id="id150347" class="ChangeVelocityAction" enabled="true">
           <attributes>
-            <text id="name">Move</text>
-            <text id="bundleName">Move.behavior</text>
+            <text id="name">Change Velocity</text>
+            <text id="bundleName">ChangeVelocity.behavior</text>
             <angle id="direction">180</angle>
             <index id="space">0</index>
-            <index id="moveType">0</index>
-            <real id="speed">150</real>
+            <real id="speed">300</real>
           </attributes>
         </behavior>
       </behaviors>
@@ -108,7 +106,7 @@
     <motion>
       <attributes>
         <point id="linearVelocity">
-          <real id="x">0</real>
+          <real id="x">-600</real>
           <real id="y">0</real>
         </point>
         <point id="centerOfMass">

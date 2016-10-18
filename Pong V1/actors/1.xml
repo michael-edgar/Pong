@@ -51,7 +51,7 @@
             <angle id="direction">90</angle>
             <index id="space">0</index>
             <index id="moveType">0</index>
-            <real id="speed">150</real>
+            <real id="speed">300</real>
           </attributes>
         </behavior>
       </behaviors>
@@ -84,7 +84,7 @@
             <angle id="direction">270</angle>
             <index id="space">0</index>
             <index id="moveType">0</index>
-            <real id="speed">150</real>
+            <real id="speed">300</real>
           </attributes>
         </behavior>
       </behaviors>
