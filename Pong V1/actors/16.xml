@@ -1,45 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id106736" PGFVersion="0.25" GSCVersion="1.25.5977">
+<actor id="id732666" PGFVersion="0.25" GSCVersion="1.25.5977">
   <attributes>
-    <text id="name">Score 1</text>
+    <text id="name">Lose</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">80</real>
-      <real id="height">80</real>
+      <real id="width">120</real>
+      <real id="height">120</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
       <real id="red">1</real>
       <real id="green">1</real>
       <real id="blue">1</real>
-      <real id="alpha">0</real>
+      <real id="alpha">1</real>
     </color>
     <image id="image" />
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id996393" class="DisplayTextBehavior" enabled="true">
+    <behavior id="id720470" class="DisplayTextBehavior" enabled="true">
       <attributes>
-        <text id="name">Player 1 Score</text>
+        <text id="name">Lose Text</text>
         <text id="bundleName">DisplayText.behavior</text>
-        <text id="text">
-          <expression>
-            <reference keypath="game.attributes.id127024" />
-          </expression>
-        </text>
+        <text id="text">Player 1 Loses :(</text>
         <text id="font">Cambay</text>
         <real id="size">30</real>
         <index id="alignment">1</index>
         <boolean id="wrap">false</boolean>
         <color id="color">
-          <real id="red">0</real>
+          <real id="red">1</real>
           <real id="green">0</real>
-          <real id="blue">1</real>
+          <real id="blue">0</real>
           <real id="alpha">1</real>
         </color>
         <real id="offsetx">0</real>

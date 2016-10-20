@@ -163,6 +163,47 @@
             <index id="mode">0</index>
           </attributes>
         </behavior>
+        <behavior id="id815091" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name">Enemy Wall Collision</text>
+            <text id="bundleName">Rule.behavior</text>
+            <real id="compoundConditionKind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id787894" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+              <attributes>
+                <text id="name">default name</text>
+                <index id="conditionType">0</index>
+              </attributes>
+              <predicate type="collision">
+                <attributes>
+                  <text id="prototypeKey">id959951</text>
+                  <text id="actorTag" />
+                  <real id="mode">0</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id139309" class="ChangeVelocityAction" enabled="true">
+              <attributes>
+                <text id="name">Change Velocity</text>
+                <text id="bundleName">ChangeVelocity.behavior</text>
+                <angle id="direction">
+                  <expression>
+                    <string xml:space="preserve">random(</string>
+                    <string xml:space="preserve">120</string>
+                    <string xml:space="preserve">, </string>
+                    <string xml:space="preserve">250</string>
+                    <string xml:space="preserve">)</string>
+                  </expression>
+                </angle>
+                <index id="space">0</index>
+                <real id="speed">400</real>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
       </behaviors>
     </behavior>
   </behaviors>

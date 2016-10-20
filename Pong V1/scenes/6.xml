@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.25" GSCVersion="1.25.5977" id="id561392">
+<scene PGFVersion="0.25" GSCVersion="1.25.5977" id="id991035">
   <layers>
-    <layer id="id690689">
+    <layer id="id702104">
       <actors>
-        <actor id="id931401" prototype="id666702">
+        <actor id="id371293" prototype="id732666">
           <attributes>
             <point id="position">
               <real id="x">280</real>
@@ -17,7 +17,7 @@
           </attributes>
           <aspects />
         </actor>
-        <actor id="id902588" prototype="id521232">
+        <actor id="id303329" prototype="id521232">
           <attributes>
             <point id="position">
               <real id="x">280</real>
@@ -39,7 +39,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Player 1 Wins</text>
+    <text id="name">Player 2/Bot Wins</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">568</real>
