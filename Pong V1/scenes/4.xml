@@ -87,34 +87,6 @@
           </attributes>
           <aspects />
         </actor>
-        <actor id="id304945" prototype="id106736">
-          <attributes>
-            <point id="position">
-              <real id="x">138</real>
-              <real id="y">250</real>
-            </point>
-            <size id="size">
-              <real id="width">80</real>
-              <real id="height">80</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id615702" prototype="id739557">
-          <attributes>
-            <point id="position">
-              <real id="x">378</real>
-              <real id="y">250</real>
-            </point>
-            <size id="size">
-              <real id="width">80</real>
-              <real id="height">80</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects />
-        </actor>
         <actor id="id923824" prototype="id959951">
           <attributes>
             <point id="position">
@@ -146,6 +118,40 @@
               <real id="height">332</real>
             </size>
             <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id418240" prototype="id748523">
+          <attributes>
+            <point id="position">
+              <real id="x">392</real>
+              <real id="y">100</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
+              <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id465265" prototype="id191502">
+          <attributes>
+            <point id="position">
+              <real id="x">143</real>
+              <real id="y">243</real>
+            </point>
+            <size id="size">
+              <real id="width">70</real>
+              <real id="height">70</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">1</real>
+              <real id="green">1</real>
+              <real id="blue">1</real>
+              <real id="alpha">0</real>
+            </color>
           </attributes>
           <aspects />
         </actor>

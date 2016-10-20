@@ -143,6 +143,20 @@
           </attributes>
           <aspects />
         </actor>
+        <actor id="id862478" prototype="id748523">
+          <attributes>
+            <point id="position">
+              <real id="x">398</real>
+              <real id="y">100</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
+              <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
       </actors>
       <attributes>
         <text id="name">Background</text>

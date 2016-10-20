@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id191502" PGFVersion="0.25" GSCVersion="1.25.5977">
+<actor id="id521232" PGFVersion="0.25" GSCVersion="1.25.5977">
   <attributes>
-    <text id="name">Score 3</text>
+    <text id="name">Restart Game</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">120</real>
-      <real id="height">120</real>
+      <real id="width">250</real>
+      <real id="height">60</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -23,15 +23,11 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id715709" class="DisplayTextBehavior" enabled="true">
+    <behavior id="id822033" class="DisplayTextBehavior" enabled="true">
       <attributes>
         <text id="name">Display Text</text>
         <text id="bundleName">DisplayText.behavior</text>
-        <text id="text">
-          <expression>
-            <reference keypath="game.attributes.id166644" />
-          </expression>
-        </text>
+        <text id="text">Press Enter to Restart</text>
         <text id="font">Cambay</text>
         <real id="size">30</real>
         <index id="alignment">1</index>
@@ -39,7 +35,7 @@
         <color id="color">
           <real id="red">0</real>
           <real id="green">0</real>
-          <real id="blue">1</real>
+          <real id="blue">0</real>
           <real id="alpha">1</real>
         </color>
         <real id="offsetx">0</real>
@@ -48,6 +44,38 @@
         <index id="directionSpace">0</index>
         <angle id="direction">0</angle>
       </attributes>
+    </behavior>
+    <behavior id="id807819" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Title</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id322838" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="key">
+            <attributes>
+              <text id="mode">down</text>
+              <text id="keyString">return</text>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id660965" class="ChangeSceneAction" enabled="true">
+          <attributes>
+            <text id="name">Change Scene</text>
+            <text id="bundleName">ChangeScene.behavior</text>
+            <text id="sceneKey">id300886</text>
+            <index id="enableAdvertisement">0</index>
+            <index id="index">1</index>
+          </attributes>
+        </behavior>
+      </behaviors>
     </behavior>
   </behaviors>
   <aspects>

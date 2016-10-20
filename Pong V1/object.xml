@@ -25,7 +25,9 @@
     <actor id="id713444" />
     <actor id="id106736" />
     <actor id="id739557" />
+    <actor id="id191502" />
     <actor id="id521232" />
+    <actor id="id748523" />
   </prototypes>
   <plugins />
   <scenes>
@@ -198,5 +200,6 @@
     <table id="id882041" name="PurchaseTable">PurchaseTable</table>
     <integer id="id227338" name="Score1">0</integer>
     <integer id="id127024" name="Score2">0</integer>
+    <integer id="id166644" name="Score3">0</integer>
   </attributes>
 </game>
