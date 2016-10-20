@@ -58,7 +58,7 @@
         <real id="friction">3</real>
         <real id="restitution">1</real>
         <boolean id="fixedRotation">false</boolean>
-        <boolean id="movable">true</boolean>
+        <boolean id="movable">false</boolean>
         <enumeration id="collisionShape">0</enumeration>
         <real id="drag">0</real>
         <real id="angularDrag">0</real>
